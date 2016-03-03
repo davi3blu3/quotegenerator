@@ -3,4 +3,5 @@
 
 .DS_Store
 /js/vendor
+/js/config.js
 /img
