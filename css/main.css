@@ -95,11 +95,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+   colors - dark green border:  #002F14
+            mid green:          #126837
+            light green:        #499C6D
+*/
 
+body {
+    text-align: center;
+    background-color: #126837;
+    color: #002F14;
+}
 
+#title {
+    font-size: 3em;
+}
 
+#quote-space {
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid #002F14;
+    border-radius: 10px;
+    background-color: #499C6D;
+}
 
+blockquote {
+    padding: 15px;
+}
 
+#author-line {
+    text-align: right;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 15px;
+    margin-top: 40px;
+    border: 2px solid #002F14;
+    border-radius: 10px;
+    background-color: #92C01F;
+}
 
 
 
