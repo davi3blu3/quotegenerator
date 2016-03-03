@@ -2,7 +2,7 @@
 
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous", true);
-xhr.setRequestHeader("X-Parse-Application-Id", "quotegenerator");
+xhr.setRequestHeader("X-Parse-Application-Id", appId);
 xhr.setRequestHeader("X-Mashape-Key", apiKey);
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();
