@@ -103,16 +103,11 @@ textarea {
 
 body {
     text-align: center;
-    background-color: #126837;
+    background-color: #106635;
     color: #002F14;
 }
 
-#title {
-    font-size: 3em;
-}
-
 #quote-space {
-    width: 70%;
     margin: 0 auto;
     border: 3px solid #002F14;
     border-radius: 10px;
@@ -139,6 +134,53 @@ button {
 }
 
 
+/*
+*       MEDIA QUERIES
+*/
+
+/* Extra small devices (phones, 320px and up) */
+@media (min-width: 320px) {
+    #quote-space {
+        width: 90%;
+    }
+
+    #title {
+        font-size: 1.75em;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-space {
+        width: 80%;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #quote-space {
+        width: 70%;
+    }
+
+    #title {
+        font-size: 2.5em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #quote-space {
+        width: 60%;
+    }
+
+    #title {
+        font-size: 3em;
+    }
+}
 
 
 
