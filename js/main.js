@@ -16,6 +16,7 @@ function newQuote() {
 			var authorField = document.getElementById('author');
 			quoteField.innerHTML = newQuote;
 			authorField.innerHTML = newAuthor;
+			document.getElementById("tweet").setAttribute('href', 'http://twitter.com/home/?status=' + newQuote + ' -' + newAuthor);
 		}
 	}	
 }

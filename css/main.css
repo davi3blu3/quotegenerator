@@ -127,10 +127,23 @@ button {
     font-size: 1.5em;
     padding: 15px;
     margin-top: 40px;
-    border: 2px solid #002F14;
     border-radius: 10px;
-    background-color: #92C01F;
     outline: none;
+}
+
+.new-quote {
+    background-color: #92C01F;
+    border: 2px solid #002F14;
+}
+
+.tweet-quote {
+    background-color: #4099FF;
+    border: 2px solid white;
+    color: white;
+}
+
+#tweet-link {
+    text-decoration: none;
 }
 
 
